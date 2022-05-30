@@ -1,14 +1,33 @@
 body { 
-        width: 100%;
-        height: 100%;
-    }
+    margin: 0%;
+    width: 100%;
+    height: 300%;
 
-.backg1 {
+}
+
+.menuebackg {
+    width: 100%;
     background-color: #191919;
     height: 132px;
 }
 
-main{
+.chacha {
+    position: relative;
+    left: 15%;
+    padding: 10;
+}
+
+.tijelacha {
+    position: absolute ;
+    top: 10;
+    right: 10px;
+    left: 7.8%;
+    padding: 5;
+    width: 100px;
+    height: 132px;
+}
+
+.main {
     margin: 0 auto;
     width: 980px;
     position: relative;
