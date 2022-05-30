@@ -7,3 +7,9 @@ body {
     background-color: #191919;
     height: 132px;
 }
+
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
