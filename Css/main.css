@@ -1,5 +1,4 @@
-body { 
-    margin: 0%;
+body {
     width: 100%;
     height: 100%;
 
@@ -8,34 +7,43 @@ body {
 .menuebackg {
     width: 100%;
     background-color: #191919;
-    height: 180px;
+    height: 160px;
 }
 
 .chacha {
     position: relative;
+    width: 98%;
     left: 15%;
-    padding: 30;
+    padding: 10;
 }
 
 .tijelacha {
     position: absolute ;
     top: 10;
     right: 10px;
-    left: 8.6%;
-    padding: 40;
+    left: 13.8%;
+    padding: 10;
     width: 100px;
     height: 132px;
 }
 
 .lendocha {
     position: absolute;
-    top: 10%;
-    left: 40%;
+    top: 5%;
+    left: 30%;
     
+}
+
+.Linksderedesociais ul li {
+    display: inline-table;
+    position: absolute;
+    top: 5%;
+    left: 40%;
 }
 
 .main {
     margin: 0 auto;
     width: 980px;
     position: relative;
+    float: left;
 }
