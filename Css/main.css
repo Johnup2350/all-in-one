@@ -1,7 +1,6 @@
 body {
     margin-top: 0px;
     margin: auto;
-    max-width: 1200px;
     width: 100%;
     height: 200%;
     background-color: aqua;
@@ -13,6 +12,8 @@ body {
     width: 100%;
     background-color: #000000;
     height: 160px;
+    max-width: 1200;
+    min-width: 320px;
 }
 
 .chacha {
@@ -27,7 +28,7 @@ body {
     position: absolute;
     top: 10;
     right: 10px;
-    left: 180px;
+    left: 285px;
     padding: 25;
     width: 100px;
     height: 132px;
@@ -35,8 +36,8 @@ body {
 
 .lendocha {
     position: absolute;
-    top: 0.5%;
-    left: 700px;
+    top: 0.1%;
+    left: 800px;
     padding: 0.1%;    
 }
 
@@ -45,5 +46,5 @@ body {
     display: inline-block;
     margin-left: 1px;
     top: 110px;
-    left: 435px;
+    left: 430px;
 }
