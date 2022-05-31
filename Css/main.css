@@ -1,8 +1,9 @@
 body {
-    margin: 0%;
-    max-width: 1200px;
+    margin-top: 0%;
+    margin-left: 300px;
+    max-width: 1230px;
     width: 100%;
-    height: 200vh;
+    height: 200%;
 }
 
 .backg1 {
@@ -10,7 +11,7 @@ body {
     max-width: 100%;
     margin: auto;
     width: 100%;
-    background-color: #191919;
+    background-color: #000000;
     height: 160px;
 }
 
@@ -19,8 +20,7 @@ body {
     width: 30%;
     left: 100px;
     right: 100%;
-    padding: 20px;
-    
+    padding: 20px; 
 }
 
 .tijelacha {
@@ -45,7 +45,7 @@ body {
     display: inline-block;
     margin-left: 1px;
     top: 110px;
-    left: 480px;
+    left: 435px;
 }
 
 .main {
