@@ -48,24 +48,26 @@
 }
 .Searchy{
     position: absolute;
-    width: 18%;
     height: 30px;
     border-radius: 6px;
-    background-color: rgb(185, 208, 201);
+    background-color: rgb(255, 255, 255);
     align-items: center;
     top: 2.3px;
     left: 21.8%;
     display: flex;
-    display: flex;
-    justify-content: right;
+    justify-content: space-around;
 }
 .searchtext{
      background: none;
      border: 0;
      outline: 1px;
      font-size: 18px;
+     width: 0;
     }
-
-.Lupeblack01{
+.botao{
     
+}
+
+.Lupeblack{
+    display: none;
 }
