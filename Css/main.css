@@ -4,6 +4,10 @@
     width: 100%;
 }
 .background-1 {
+    position: relative;
+    display: flex;
+    margin: auto;
+    width: 100%;
     background-color: #2b2d34;
     height: 60px;
     position: relative;
@@ -11,75 +15,63 @@
 }
 .lendocha {
     position: relative;
-    margin-left: 2%;
+    margin: auto;
     margin-top: 50%;
 }
  .rede ul li {
     float: left;
     display: inline-block;
     list-style: none;
-    margin-left: 4px;
+    margin-left: 7px;
+    
 } 
-.rede{
+.rede{    
     position: absolute;
-    top: ;
-    float: right;
-    margin-right: 10%;
-    margin-left: 56%;        
+    top: 54.5px;
+    
+    margin-left: 12.5%;
 }
 .conteudmain{
-    width: 80%;
-    max-width: 100%;
     min-width: 30%;
-    margin-left: 1.5%;
+   
 }
 
 .background-2{
-    background-color: #58368c;
     height: 35px;
-    position: relative;
-    border: 1px solid black;
+    width: 100%;
     margin-top: 0px;
-}
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #58368c;
+    border: 1px solid black;
+    }
 .Searchbox{
-    position: absolute;
-    border-radius: 40px;
+    position: relative;
+    border-radius: 5px;
     background-color: rgb(255, 255, 255);
     align-items: center;
-    top: 2.5px;
-    left: 21.8%;
+    top: px;
+    width: 250px;
+    margin: auto;
+    left: 25.7%;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
 }
 
-.Searchbox:hover > .searchtext{
-    width: 200px;
-    padding-left: 20px;
-}
-.Searchbox:hover > .searchbot{
-    background: #ffffff;
-}
-.Searchbox:hover > .searchbot .Lupeblue{
-    display: none;
-}
-.Searchbox:hover > .searchbot .Lupeblack01{
-    display: block;
-}
+
 .searchtext{
     background: none;
     border: 0;
     padding: 0;
     outline: 0;
     font-size: 18px;
-    width: 0;
-    transition: 0.5s;
+    left: 60px;
 }
 .searchbot{
     height: 30px;
     width: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
 }
 .Lupeblack01{
