@@ -3,6 +3,29 @@
     margin: auto;
     width: 100%;
 }
+.conteudmain{
+    position: absolute;
+    max-width: 65%;
+    min-width: 40%;
+    max-width: 55%;
+    margin: auto;
+    top: 10px;
+    margin-left: 2%;
+}
+
+
+.background-3{
+    position: relative;
+    margin: auto;
+    max-width: 100%;
+    min-width: 40%;
+    top: 0.5px;
+    height: 1400px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 .background-1 {
     position: relative;
     display: flex;
@@ -11,7 +34,7 @@
     background-color: #2b2d34;
     height: 60px;
     position: relative;
-    border: 0.2px solid black;
+    border: 0.1px solid black;
 }
 .lendocha {
     position: relative;
@@ -22,20 +45,14 @@
     float: left;
     display: inline-block;
     list-style: none;
-    margin-left: 7px;
+    margin-left: 10px;
     
 } 
 .rede{    
     position: absolute;
-    top: 54.5px;
-    
+    top: 54.5px;    
     margin-left: 12.5%;
 }
-.conteudmain{
-    min-width: 30%;
-   
-}
-
 .background-2{
     height: 35px;
     width: 100%;
@@ -45,7 +62,7 @@
     justify-content: space-between;
     margin: auto;
     background-color: #58368c;
-    border: 1px solid black;
+    border-bottom: 1px solid #000000;
     }
 .Searchbox{
     position: relative;
@@ -58,9 +75,8 @@
     left: 25.7%;
     display: flex;
     justify-content: end;
+    padding-left: 10px;
 }
-
-
 .searchtext{
     background: none;
     border: 0;
@@ -77,3 +93,5 @@
 .Lupeblack01{
     display: none;
 }
+
+
